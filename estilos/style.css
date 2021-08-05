@@ -1,14 +1,25 @@
-* {
-    background-color: white;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-
+:root {
+    --cor1: #CFD6EA;
+    --cor2: #B0B2B8;
+    --cor3: #7D7E75;
+    --cor4: #4F5D2F;
+    --cor5: #423629;
+    --cor6: #FF101F;
+}
 header{
-    background-color: #423629;
+    background-color: var(--cor5);
+    color: var(--cor1)
 }
 
 main{
-
+    background-color: white;
 }
+
 footer {
-    background-color: #423629;
+    background-color: var(--cor5);
+    color: var(--cor1)
 }
