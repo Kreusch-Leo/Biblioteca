@@ -10,13 +10,28 @@
     --cor5: #423629;
     --cor6: #FF101F;
 }
+
+body {
+    background-color: var(--cor3);
+}
+
 header{
+    background-image: linear-gradient(to bottom, #68523b,  var(--cor5));
+    color: var(--cor1);
+    text-align: center;
+}
+nav {
     background-color: var(--cor5);
-    color: var(--cor1)
+}
+img{
+    max-width: 300px;
+    margin: auto;
 }
 
 main{
-    background-color: white;
+    background-color: var(--cor1);
+    max-width: 750px;
+    margin: auto;
 }
 
 footer {
