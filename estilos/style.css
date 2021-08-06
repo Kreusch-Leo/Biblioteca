@@ -33,6 +33,10 @@ h1 {
     font-family: var(--fonte2);
 }
 
+h2 {
+    font-size: 2em;
+    font-family: var(--fonte2);
+}
 a {
     text-decoration: none;
     color: var(--cor1);
@@ -56,15 +60,16 @@ nav a:hover {
 }
 
 section.img {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-auto-flow: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 img{
     min-width: 250px;
     max-width: 300px;
+    size: auto;
     border-radius: 10px;
     margin: 10px;
     border: solid black;
