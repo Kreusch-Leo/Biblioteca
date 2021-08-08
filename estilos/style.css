@@ -66,9 +66,10 @@ font-size: 1.1em;
 }
 
 section.img {
-display: inline-flex;
+display: flex;
 justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 }
 
 img{
@@ -124,6 +125,7 @@ flex-wrap: wrap;
 img {
 width: auto;
 height: auto;
-max-width: 450px;
+max-width: 400px;
 min-width: none;
+margin-bottom: 25px;
 }}
