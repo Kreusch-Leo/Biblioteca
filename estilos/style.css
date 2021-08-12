@@ -43,6 +43,15 @@ text-decoration: none;
 color: var(--cor1);
 }
 
+strong {
+color: black;
+text-decoration: underline;
+font-family:var(--fonte2);
+}
+
+.link {
+font-size: 1.5em;
+}
 nav {
 background-color: var(--cor5);
 padding-bottom: 15px;
