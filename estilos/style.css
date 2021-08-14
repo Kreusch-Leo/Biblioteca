@@ -101,6 +101,10 @@ text-indent: 30px;
 margin: 0px 0px 25px 0px;
 }
 
+header p {
+text-indent: none;
+}
+
 footer {
 background-color: var(--cor5);
 color: var(--cor1);
