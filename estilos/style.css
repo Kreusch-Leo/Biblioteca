@@ -52,6 +52,11 @@ font-family:var(--fonte2);
 .link {
 font-size: 1.3em;
 }
+
+.titulo {
+color: black;
+}
+
 nav {
 background-color: var(--cor5);
 padding-bottom: 15px;
